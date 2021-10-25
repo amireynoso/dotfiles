@@ -2,6 +2,10 @@ export ZSH="$HOME/.oh-my-zsh"
 
 source $ZSH/oh-my-zsh.sh
 
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+prompt pure
+
 # Git aliases
 alias gs="git status"
 alias log="git log"
