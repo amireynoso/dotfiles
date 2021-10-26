@@ -1,10 +1,10 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-source $ZSH/oh-my-zsh.sh
+ZSH_THEME="robbyrussell"
 
-fpath+=$HOME/.zsh/pure
-autoload -U promptinit; promptinit
-prompt pure
+plugins=(git ruby brew npm vscode)
+
+source $ZSH/oh-my-zsh.sh
 
 # Git aliases
 alias gs="git status"
