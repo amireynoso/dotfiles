@@ -61,6 +61,9 @@ alias policial="git diff master --diff-filter=d --name-only | xargs rubocop"
 alias schema="rake graphql:schema:dump"
 alias start="dev sv stop; dev up && dev debug"
 
+# Spin aliases
+alias up="spin up web --name"
+
 # General aliases
 # alias profile="code ~/.zshrc"
 alias find-port="ps aux | grep"
