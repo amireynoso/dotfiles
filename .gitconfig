@@ -6,9 +6,6 @@
 	writeCommitGraph = true
 [protocol]
 	version = 2
-[url "https://github.com/Shopify/"]
-	insteadOf = git@github.com:Shopify/
-	insteadOf = ssh://git@github.com/shopify/
 [user]
 	name = Ami Reynoso
 	email = amireynoso@users.noreply.github.com
